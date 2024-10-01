@@ -6,7 +6,8 @@
 ## Enviar un ejecutable al PATH y abrirlo desde cuanquier parte de la terminal de manera permanente
 
 ```
-#Hacer permanente la adición al PATH (opcional): El comando export PATH solo afecta la sesión actual de la terminal. Si quieres que el cambio sea permanente, puedes añadir el mismo comando al archivo .bashrc o .bash_profile (dependiendo de tu sistema):
+#Hacer permanente la adición al PATH (opcional): El comando export PATH solo afecta la sesión actual de la terminal.
+Si quieres que el cambio sea permanente, puedes añadir el mismo comando al archivo .bashrc o .bash_profile (dependiendo de tu sistema):
 
 #Paso1: COpias y pegar con permisos de admin el ejecutable a la carpeta /usr/local/bin
 
