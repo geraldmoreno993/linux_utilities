@@ -16,3 +16,15 @@ echo 'export PATH=$PATH:/ruta/completa/a/ejecutable/bin' >> ~/.bashrc
 #Luego, ejecuta el siguiente comando para recargar el archivo .bashrc:
 source ~/.bashrc
 ```
+
+
+## Desinstalar un programa con línea de comandos (Ejemplo programa Emacs) en Ubuntu o distribuciones basadas en Debian:
+
+```
+#Ejecuta el siguiente comando para desinstalar Emacs:
+sudo apt remove emacs
+#Si también deseas eliminar todos los archivos de configuración asociados, puedes ejecutar:
+sudo apt purge emacs
+#Después, para limpiar paquetes que ya no son necesarios, ejecuta:
+sudo apt autoremove
+```
