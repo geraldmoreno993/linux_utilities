@@ -9,15 +9,15 @@ Muchas gracias por su visita, Gerald Moreno
 Hacer permanente la adición al PATH (opcional): El comando export PATH solo afecta la sesión actual de la terminal.
 Si quieres que el cambio sea permanente, puedes añadir el mismo comando al archivo .bashrc o .bash_profile (dependiendo de tu sistema):
 
-### Paso1: Copias y pegar con permisos de admin el ejecutable al directorio ```/usr/local/bin```
+### Método 1: Copias y pegar con permisos de admin el ejecutable al directorio ```/usr/local/bin```
 
-### Paso2: Agregar al PATH el ejecutable
+### Método 2: Agregar al PATH el ejecutable
 ```
-echo 'export PATH=$PATH:/ruta/completa/a/ejecutable/bin' >> ~/.bashrc
+echo 'export PATH=$PATH:/ruta/completa/a/ejecutable' >> ~/.bashrc
 #Luego ejecuta el siguiente comando para recargar el archivo .bashrc:
 source ~/.bashrc
 ```
-## En caso de carpetas completas
+## En caso de directorios completos
 
 ### Paso1: 
 
