@@ -17,17 +17,25 @@ echo 'export PATH=$PATH:/ruta/completa/a/ejecutable' >> ~/.bashrc
 #Luego ejecuta el siguiente comando para recargar el archivo .bashrc:
 source ~/.bashrc
 ```
-## En caso de directorios completos
+## En caso de directorios completos que poseen directorio interno ```bin/```
 
-### Paso1: 
-
-### Paso1: En el programa qeu descargaste debe haber un directorio llamado bin la cual debes saber su ruta: debe ser algo como esto ```/home/usuario/sratoolkit/bin```
-### Paso2: Agregar al PATH el ejecutable
+### En el programa que descargaste debe haber un directorio llamado bin la cual debes saber su ruta: debe ser algo como esto ```/home/usuario/sratoolkit/bin```
+### Agregar al PATH el ejecutable
 ```
 nano ~/.bashrc
 echo 'export PATH=$PATH:/ruta/completa/a/ejecutable/bin' >> ~/.bashrc
 source ~/.bashrc
 ```
+
+## En caso que no aplique o no funcionen los métodos anteriores (cuando el ejectuable se instaló con ficheros o dependencias) 
+
+## Entrar al directorio del ejecutable y coloca la ruta completa primero al ejectutable y luego el lugar donde deseas crear un enlace simbòlico o acceso directo
+
+```
+#Ejemplo:
+sudo ln -s /home/ubigem/Documentos/instaladores/Zotero_linux-x86_64/zotero /usr/local/bin/zotero
+```
+
 
 # Desinstalar un programa con línea de comandos (Ejemplo programa Emacs) en Ubuntu o distribuciones basadas en Debian:
 
