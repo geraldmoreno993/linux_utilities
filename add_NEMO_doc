@@ -1,0 +1,9 @@
+## Agregar a NEMO o a click derecho nuevos documentos por abrir en Linux Mint (odt, ppt, doc, etc)
+# Este ejemplo es con txt
+# Haz esto en terminal, exactamente así:
+xdg-user-dir TEMPLATES
+grep XDG_TEMPLATES_DIR ~/.config/user-dirs.dirs
+
+# Ahora crea una plantilla de prueba en esa carpeta real:
+mkdir -p "$(xdg-user-dir TEMPLATES)"
+echo prueba > "$(xdg-user-dir TEMPLATES)/Prueba.txt"
